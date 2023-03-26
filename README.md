@@ -1,5 +1,5 @@
 # Tic_Tac_Toe
 A tic tac toe game versus the computer on the terminal. There are three different levels, easy, medium and hard:
-On the easy level, the game is easily beatable, as the cpu moves are implemented by the python random module
-On medium, the computer recognizes if it has a chance to win or it has to block at the current move
-On hard, it implements strategies based on who played first and the opponent moves
+\nOn the easy level, the game is easily beatable, as the cpu moves are implemented by the python random module.
+\nOn medium, the computer recognizes if it has a chance to win or it has to block at the current move.
+\nOn hard, it implements strategies based on the opponent moves.
