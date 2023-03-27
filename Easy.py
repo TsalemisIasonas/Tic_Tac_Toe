@@ -27,10 +27,11 @@ class TicTacToe:
             first_player = 3 - first_player    # switch players (1 -> 2, 2 -> 1)
 
     def draw_board(self):
+        dict = {0:" ",1:"x",2:"o"}
         for i in range(2):
-            print(' ' * 3, self.board[i, 0], '|', self.board[i, 1], '|', self.board[i, 2])
+            print(' ' * 3, dict[self.board[i, 0]], '|', dict[self.board[i, 1]], '|', dict[self.board[i, 2]])
             print(' ', '-' * 13)
-        print(' ' * 3, self.board[2, 0], '|', self.board[2, 1], '|', self.board[2, 2], '\n')
+        print(' ' * 3, dict[self.board[2, 0]], '|', dict[self.board[2, 1]], '|', dict[self.board[2, 2]], '\n')
 
     def player_move(self):
         position = tuple(input('Give position on board:\n'))
